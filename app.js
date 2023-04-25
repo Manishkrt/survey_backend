@@ -7,7 +7,7 @@ import surveyroute from './routes/survey.js'
 
 dotenv.config(); 
 
-const PORT = process.env.PORT;  
+const PORT = process.env.PORT || 8989;  
 const app = express();
  
 // middle ware 
